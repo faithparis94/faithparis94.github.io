@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Pixel Tech Clinic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Top Navigation Menu -->
+    <header>
+        <div class="logo">
+            <h1>Pixel Tech <span>Clinic</span></h1>
+        </div>
+        <nav class="top-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="business model.html">Business Model</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Page Layout Container -->
+    <div class="page-container">
+        
+        <!-- Sidebar Navigation Index -->
+        <aside class="sidebar">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html" class="active-side">🏠 Home Page</a></li>
+                <li><a href="skills.html">👤 Skills </a></li>
+                <li><a href="about.html">💼 About</a></li>
+                <li><a href="business model.html">📊 Business Model</a></li>
+                <li><a href="contact.html">📞 Contact Page</a></li>
+            </ul>
+        </aside>
+
+
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <section class="contact-header">
+            <h2>Get in Touch</h2>
+            <p>Have a question or need a repair quote? Reach out to Pixel Tech Clinic today.</p>
+        </section>
+
+        <div class="contact-grid">
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send a Message</h3>
+                <form action="#">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Device Type / Issue</label>
+                        <select id="subject">
+                            <option value="phone">Smartphone Repair</option>
+                            <option value="laptop">Laptop Repair</option>
+                            <option value="software">Software / Virus Removal</option>
+                            <option value="data">Data Recovery</option>
+                            <option value="other">Other Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Describe the problem with your device..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info & Hours -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <h4>📍 Location</h4>
+                    <p>Kampala, Uganda<br>Room 4B, Plantum Plaza, Main Street</p>
+                </div>
+
+                <div class="info-card">
+                    <h4>📞 Call / WhatsApp</h4>
+                    <p>Phone: +256792220195<br>WhatsApp: <a href="#" style="color: #00838f; font-weight: bold;">https://wa.me/256792220195</a></p>
+                </div>
+
+                <div class="info-card">
+                    <h4>🕒 Business Hours</h4>
+                    <ul class="hours-list">
+                        <li><span>Mon - Fri:</span> <span>8:00 AM - 6:00 PM</span></li>
+                        <li><span>Saturday:</span> <span>9:00 AM - 4:00 PM</span></li>
+                        <li><span>Sunday:</span> <span>Closed</span></li>
+                    </ul>
+                </div>
+
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com.php?id=100079019048998" class="social-icon">FB</a>
+                        <a href="https://www.tiktok.com/@user756632063588"class="social-icon">TT</a>
+                        <a href="https://www.wa.me/256792220195"class="social-icon">WA</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2026 Pixel Tech Clinic. All rights reserved.</p>
+</footer>
+</body>
+</html>
